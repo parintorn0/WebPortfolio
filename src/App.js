@@ -1,8 +1,8 @@
 import './css/App.css';
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter
 } from "react-router-dom";
 import Header from './Widgets/Header/Header';
 import Home from './Widgets/Home/Home';
@@ -16,16 +16,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Router> */}
-        {/* <Routes> */}
-          <Home />
-          {/* <Route path="/WebPortfolio/index" element={<Home />} />
-          <Route path="/WebPortfolio/about" element={<About />} />
-          <Route path="/WebPortfolio/education" element={<Education />} />
-          <Route path="/WebPortfolio/projects" element={<Project />} />
-          <Route path="/WebPortfolio/contact" element={<Contact />} />
+      <HashRouter>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path="/index" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router> */}
+      </HashRouter>
 
       <Footer />
     </div>
