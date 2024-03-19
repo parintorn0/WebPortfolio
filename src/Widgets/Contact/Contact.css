@@ -1,0 +1,25 @@
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    width:20vw;
+    justify-content: space-between;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.mail{
+    color:#ffff;
+    padding: 75px 0px;
+    font-size: 30px;
+}
+
+.mail.normal{
+    margin-left: 5vw;
+}
+
+
+.mail.normal:hover {
+    font-weight: 500;
+}
