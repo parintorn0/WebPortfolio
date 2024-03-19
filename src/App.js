@@ -16,16 +16,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Router>
-        <Routes>
-          <Route exact path='/WebPortfolio/' element={<Home />} />
-          <Route path="/WebPortfolio/index" element={<Home />} />
+      {/* <Router> */}
+        {/* <Routes> */}
+          <Home />
+          {/* <Route path="/WebPortfolio/index" element={<Home />} />
           <Route path="/WebPortfolio/about" element={<About />} />
           <Route path="/WebPortfolio/education" element={<Education />} />
           <Route path="/WebPortfolio/projects" element={<Project />} />
           <Route path="/WebPortfolio/contact" element={<Contact />} />
         </Routes>
-      </Router>
+      </Router> */}
 
       <Footer />
     </div>
