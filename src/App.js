@@ -18,12 +18,12 @@ function App() {
       <Header />
       <Router>
         <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route path="/index" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/projects" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route exact path='/WebPortfolio/' element={<Home />} />
+          <Route path="/WebPortfolio/index" element={<Home />} />
+          <Route path="/WebPortfolio/about" element={<About />} />
+          <Route path="/WebPortfolio/education" element={<Education />} />
+          <Route path="/WebPortfolio/projects" element={<Project />} />
+          <Route path="/WebPortfolio/contact" element={<Contact />} />
         </Routes>
       </Router>
 
