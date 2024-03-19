@@ -3,7 +3,7 @@ import './Header.css'
 function Header() {
     return (
         <header>
-            <a className="name" href="index">Parintorn Thammasitboon</a>
+            <a className="name" href="">Parintorn Thammasitboon</a>
             <TopNav />
         </header>);
 }

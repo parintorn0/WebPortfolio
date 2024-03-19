@@ -19,7 +19,6 @@ function App() {
       <HashRouter>
         <Routes>
           <Route exact path='/' element={<Home />} />
-          <Route path="/index" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Project />} />
