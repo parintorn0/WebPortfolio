@@ -40,3 +40,9 @@ nav {
 .link:hover  {
   font-weight:500;
 }
+
+@media only screen and (max-width=650px){
+  .name {
+    font-size: 2vi;
+  }
+}
